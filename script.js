@@ -1,5 +1,5 @@
 async function _() {
-    let v = await fetch("https://cdn.jsdelivr.net/gh/Frenchmity/BadgeDB/package.json");
+    let v = await fetch("https://badgedb.enmity.frcat.xyz/manifest.json");
     v = await v.json();
     v = v.version;
 
